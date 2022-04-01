@@ -1,0 +1,399 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 2000px;
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+.mainbarra{
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box; 
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: black;
+    z-index: 99;
+    
+    
+
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    position:relative;
+    left: 100px;
+    background-color:black     ;
+    background-image:url(./logo\ god.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+
+.login{
+    height: 50px;
+    width: 10%;
+    min-width: 10%;
+    
+    position: relative;
+    bottom: 50px;
+    left: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+
+.containermenu{
+    height: 25px;
+    width: 60vw;
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+    left: 60px;
+}
+ul{
+    height: 50px;
+    width: 60vw;
+    display: flex;    
+    
+    justify-content: space-between;
+
+    
+}
+body>div>ul>li{
+    height: 30px;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    
+    top: 20px;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+
+
+
+
+
+body div ul a{
+    text-decoration: none;
+    height: 20px;
+    list-style-type: none;
+
+
+}
+
+body div div a { 
+    text-decoration: none;
+    height: 20px;
+    list-style-type: none;
+}
+
+.vfx{
+
+   
+    margin-top: 150px;
+    width: 100%;
+    height: 500px;
+    background-image: url(./looping.jpg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size:cover;
+
+}
+
+
+
+
+.whitetext{
+    color: white;
+    
+}
+.contenttext{
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+.contentcontainer1{
+    height: 70vh;
+    width: 90%;
+    display: flex;
+    margin-left: 10vw;
+    position: relative;
+    top: 50px;
+}
+.containertext1{
+    height: 100%;
+    width: 56vw;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.containerimage1{
+    height: 100%;
+    width: 32vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top:30px;
+   
+    
+}
+.venha-conosco{
+    
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+
+.imagecontent1{
+    height: 30%;
+    width: 50%;
+     
+    background-image: url(./consultoria.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+div>section>h1{
+    width: 56vw;
+    height: 70px;
+    
+    font-size: 50px;
+    margin: 30px 30px 0px 0px;
+}
+div>section>h4{
+    margin-left: 10px;
+    margin-bottom: 50px;
+
+}
+div>section>p{
+    height: 50vh;
+    
+}
+
+
+
+
+
+#line-position{
+    position: relative;
+    top: 620px;
+    
+    
+}
+
+.container-rodape{
+    height:400px ;
+    width:100% ;
+    
+    position: relative;
+    top: 650px;
+    display: flex;
+
+}
+footer div h1{
+    position: relative;
+    left: 75px;
+    font-weight: bolder;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.container-logo{
+    height: 200px;
+    width: 200px;
+    position: relative;
+   
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+    left: 100px;
+    
+
+}
+.logo-rodape{
+    height: 100px;
+    width: 100px;
+    background-image:url(./logo\ god.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.container-links{
+    height:350px ;
+    width: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    border: whitesmoke solid;
+    position:relative;
+    left: 200px;
+}
+
+    
+    
+
+.links-rodape{
+    height: 300px;
+    width: 34vw;
+    display: flex;
+    
+    
+   
+    
+}
+
+.container-facebook{
+    height:100px;
+    width: 100px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.link-facebook{
+    height: 25px;
+    width: 80px;
+    font-size: 20px;
+    
+    color: white;
+    position:relative;
+    left: 10px;    
+    
+   
+
+}
+     
+
+.logo-facebook{
+    height: 100px;
+    width: 80px;
+    background-image: url(./logo\ face.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 10px;
+    
+     
+}
+.container-instagram{
+    height:100px;
+    width: 100px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    left: 115px;
+}
+
+.link-instagram{
+    height: 25px;
+    width: 88px;
+    font-size: 20px;
+   
+    color: white;
+    position:relative;
+    
+    
+    
+
+}
+.logo-instagram{
+    height: 100px;
+    width: 100px;
+    background-image: url(./logo\ insta.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 5px;
+    
+    
+    
+}
+
+
+.container-youtube {
+    height:150px;
+    width: 200px;
+    display: flex;
+   flex-direction: column;
+    
+   
+    position: relative;
+    top: 150px;
+    right: 135px;
+}
+
+
+
+.link-youtube{
+    height: 25px;
+    width: 80px;
+    font-size: 20px;
+    margin-left: 35px;
+    color: white;
+      
+    
+   
+
+}
+     
+
+.logo-youtube{
+    height: 80px;
+    width: 100px;
+    background-image: url(./logo\ youtube.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 23px;
+    margin-top: 10px;
+    
+    
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
